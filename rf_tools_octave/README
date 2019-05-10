@@ -1,0 +1,27 @@
+  There is documentation in man.ps, as well as online help for most
+routines.
+
+  The simulater may need to be compiled.  Execute the command
+
+   mkoctfile abr.cc
+
+to produce abr.oct.  There is also an m-file version abrm.m if your
+octave installation doesn't support dynamically loaded modules.
+
+You need the signal toolbox
+
+  octave> pkg install -forge signal 
+
+and you will need to load it each time
+
+  octave> pkg load signal
+
+To run the demos,
+
+  octave> addpath demo
+  octave> rf_tools_demo
+
+   
+
+                                  -- John (pauly@stanford.edu)
+

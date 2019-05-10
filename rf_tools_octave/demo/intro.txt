@@ -1,0 +1,18 @@
+ISMRM 2019 Demo
+
+rf_tools
+
+The rf_tools package helps you design high performance RF pulses using the
+Shinnar-Le Roux (SLR) algorithm.  It includes
+
+	1) RF pulse simulator: abr.m
+
+	2) 1D linear phase pulse design:  dzrf.m
+
+	3) 1D non-linear phase pulse design: dzmp.m
+
+	4)  2d spiral pulses: dz2d.m
+
+
+   
+
